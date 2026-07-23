@@ -4,7 +4,6 @@ An end-to-end data science project that analyzes historical greenhouse gas (GHG)
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
@@ -129,4 +128,4 @@ jupyter notebook notebooks/ghg_analysis.ipynb
 
 ## 👩‍💻 Author
 
-**Varshini Sony**
+**Varshini Tumuluri**
