@@ -1,20 +1,21 @@
 # 🌍 Climate Change Trend Analysis and Forecasting
 
+An end-to-end data science project that analyzes historical greenhouse gas (GHG) emissions using the **Our World in Data (OWID) CO₂ Dataset** and forecasts future emissions using Machine Learning and Exponential Smoothing (ETS).
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-An end-to-end data science project that analyzes historical greenhouse gas emissions using the **Our World in Data (OWID) CO₂ Dataset** and forecasts future emission trends using Machine Learning and Exponential Smoothing (ETS).
-
 ---
 
-## 📌 Features
+## 🚀 Project Highlights
 
 - Data Cleaning & Preprocessing
 - Exploratory Data Analysis (EDA)
 - Feature Engineering
-- Machine Learning Models
-- ETS Time-Series Forecasting
+- Linear Regression
+- Random Forest Regression
+- ETS (Holt's Damped Trend) Forecasting
 - Future CO₂ Emission Prediction
 
 ---
@@ -35,7 +36,7 @@ An end-to-end data science project that analyzes historical greenhouse gas emiss
 
 **Source:** Our World in Data (OWID)
 
-The dataset contains historical greenhouse gas emission indicators such as CO₂ emissions, methane emissions, nitrous oxide emissions, greenhouse gas emissions, country, and year.
+The dataset contains annual greenhouse gas emission indicators including CO₂ emissions, methane emissions, nitrous oxide emissions, greenhouse gas emissions, country, and year.
 
 ---
 
@@ -46,7 +47,7 @@ Data Collection
       ↓
 Data Cleaning
       ↓
-EDA
+Exploratory Data Analysis
       ↓
 Feature Engineering
       ↓
@@ -59,13 +60,13 @@ ETS Forecasting
 
 ## 📈 Results
 
-### Global CO₂ Emissions
+### Global CO₂ Emissions Trend
 
 ![Global CO₂](images/global_co2_emissions_over_time.png)
 
-### Major Countries Comparison
+### CO₂ Emissions Comparison
 
-![Countries](images/major_countries_co2_comparison.png)
+![Country Comparison](images/major_countries_co2_comparison.png)
 
 ### Random Forest Feature Importance
 
@@ -83,12 +84,12 @@ ETS Forecasting
 |-------|---------|
 | Naive Baseline | Baseline Forecast |
 | Linear Regression | Trend Prediction |
-| Random Forest | Non-linear Prediction |
+| Random Forest | Regression Model |
 | ETS | Time-Series Forecasting |
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
 ```text
 Climate-Change-Trend-Analysis/
@@ -106,13 +107,21 @@ Climate-Change-Trend-Analysis/
 
 ## ▶️ Getting Started
 
+Clone the repository
+
 ```bash
 git clone https://github.com/Varshinisony28/Climate-Change-Trend-Analysis.git
+```
 
-cd Climate-Change-Trend-Analysis
+Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
+Run the notebook
+
+```bash
 jupyter notebook notebooks/ghg_analysis.ipynb
 ```
 
@@ -120,6 +129,4 @@ jupyter notebook notebooks/ghg_analysis.ipynb
 
 ## 👩‍💻 Author
 
-**Varshini Tumuluri**
-
----
+**Varshini Sony**
